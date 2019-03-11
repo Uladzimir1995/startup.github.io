@@ -1,0 +1,174 @@
+@media screen and (max-width: 361px)
+{
+
+  .red_header__main_title {
+    max-width: 500px;
+    min-width: 200px;
+    min-height: 150px;
+    position: relative;
+    : ;
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+
+.services_main_width {
+    width: 1300px;
+    width: 100%;
+    min-height: 770px;
+    height: 800px;
+}
+
+.aboutus__main_width {
+    width: auto;
+    height: 1700px;
+    background-color: #f8f8f8;
+}
+
+.latest_works__main_width {
+    width: auto;
+    height: 2100px;
+    /* min-height: 13%; */
+}
+
+
+.paralax__photo {
+    width: 1300px;
+    height: 300px;
+    position: relative;
+    top: -188px;
+}
+
+.paralax__main_title {
+    color: white;
+    font-family: "MyriadPro", Bold;
+    max-width: 85%;
+    min-height: 100px;
+    position: relative;
+    left: 10%;
+    z-index: 1;
+    top: 80px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-content: center; */
+}
+
+.recent__flex_3 {
+    width: auto;
+    height: auto;
+    /* position: relative; */
+    margin-top: 145px;
+}
+
+.recent__comment_text {
+    font-family: "MyriadPro", Bold;
+    color: #555555;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.types__author {
+    color: #555555;
+    font-family: "MyriadPro", Bold;
+    position: relative;
+    top: 40%;
+    left: 23%;
+    width: 52%;
+}
+
+.recent__main_width {
+    width: auto;
+    height: 1790px;
+}
+
+.getin__adress {
+    width: 38%;
+    height: 200px;
+    position: relative;
+    top: 130px;
+    left: 10%;
+    position: relative;
+    width: 75%;
+    height: 25%;
+}
+.getin__input_dates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 350px;
+
+}
+
+.getin_dates {
+    width: 1000%;
+    height: 30px;
+    box-shadow: 0 0 px 0px red;
+    margin: 6px;
+}
+
+.getin__main_width {
+    width: auto;
+    height: 937px;
+}
+
+.getin__main_input {
+    position: relative;
+    max-width: 50%;
+    left: 20%;
+    top: -20%;
+}
+
+.getin__adress {
+    width: 38%;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 10%;
+    position: relative;
+    width: 75%;
+    height: 29%;
+}
+
+.getin__little_text {
+    position: relative;
+    color: #555555;
+    font-family: "MyriadPro", Bold;
+    font-size: 13px;
+    left: 15%;
+    top: 5px;
+    width: 150px;
+}
+
+.getin__buttom {
+    position: relative;
+    color: #555555;
+    font-family: "MyriadPro", Bold;
+    box-shadow: 0 0 3px #555555;
+    top: 10px;
+    text-align: center;
+    width: 50%;
+    height: 35px;
+    left: 1%;
+}
+
+.paralax__photo {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -188px;
+}
+
+.latest_works__main_width {
+    width: auto;
+    height: 2200px;
+    /* min-height: 13%; */
+}
+
+
+
+
+}

@@ -1,0 +1,150 @@
+@media screen and (max-width: 700px)
+{
+
+
+.services_main_width {
+    width: 1300px;
+    width: 100%;
+    min-height: 570px;
+
+}
+
+.services__positions {
+    max-width: 190px;
+    height: 190px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services__positions_main {
+    max-width: 80%;
+    height: auto;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    top: 90px;
+    left: 10%;
+}
+
+.aboutus__big_comment_pr1 {
+    width: 100%;
+    height: auto;
+    margin: 5px;
+
+    color: #555555;
+    font-size: 17px;
+}
+
+.aboutus__big_comment_container {
+    max-width: 70%;
+    height: auto;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    left: 15%;
+    top: 100px;
+}
+
+.aboutus__main_container_photo {
+    max-width: 70%;
+    height: auto;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    left: 15%;
+    top: 150px;
+}
+
+.aboutus__main_width {
+    width: auto;
+    height: 1000px;
+    background-color: #f8f8f8;
+}
+
+.latest_works__main_width {
+    width: auto;
+    height: 2500px;
+    /* min-height: 13%; */
+
+}
+
+.paralax__photo {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -158px;
+}
+
+.recent__main_width {
+    width: auto;
+    height: 1350px;
+
+}
+
+.getin__adress {
+    width: 27%;
+    height: 220px;
+    position: relative;
+    top: 130px;
+    left: 5%;
+}
+
+.types__photo {
+    max-width: 80%;
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+
+.aboutus__main_width {
+    width: auto;
+    height: 1000px;
+    background-color: #f8f8f8;
+}
+
+.paralax__photo {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -188px;
+}
+
+.red_header__main_title {
+    max-width: 500px;
+    min-width: 200px;
+    min-height: 150px;
+    position: relative;
+    : ;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+
+.paralax__main_title {
+    color: white;
+    font-family: "MyriadPro", Bold;
+    max-width: 35%;
+    min-height: 100px;
+    position: relative;
+    left: 33%;
+    z-index: 1;
+    top: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-content: center; */
+}
+
+}

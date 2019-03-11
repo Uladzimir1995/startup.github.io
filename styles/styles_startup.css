@@ -1,0 +1,555 @@
+.startup_main_width {
+  max-width: 1300px;
+  height: auto;
+  padding: 0px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 10px grey; }
+
+.red_header__main_width {
+  width: 100%;
+  height: 626px;
+  position: relative; }
+
+.red_header__logo {
+  color: white;
+  position: absolute;
+  font-family: "MyriadPro", Regular;
+  font-size: 30px;
+  left: 10%;
+  top: 5%; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 11px;
+  height: 60px;
+  position: relative;
+  top: 20px; }
+
+li {
+  float: right; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px; }
+
+li a:hover {
+  background-color: #555555;
+  color: white; }
+
+.active {
+  background-color: #394b50;
+  color: white; }
+
+.red_header__multi_bar {
+  position: relative;
+  max-width: 50%;
+  height: auto;
+  left: 45%;
+  rigth: 20%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  z-index: 2;
+  flex-wrap: wrap; }
+
+.red_header__picture {
+  width: 100%;
+  height: 626px;
+  position: absolute;
+  top: 0px;
+  z-index: -1; }
+
+.red_header__main_title {
+  max-width: 500px;
+  min-width: 200px;
+  min-height: 150px;
+  position: relative;
+  :
+    
+    
+    display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+  margin-right: 30%;
+  margin-top: 10%; }
+
+.red_header__title_text {
+  color: white;
+  text-align: center;
+  font-size: 40px; }
+
+.red_header__comment_text {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 10px; }
+
+.red_header__buttom_text {
+  color: white;
+  text-align: center;
+  /* box-shadow: 0 0 4px black; */
+  max-width: 140px;
+  box-shadow: 0 0 2px 1px white;
+  position: relative;
+  /* left: 180px; */
+  /* top: 70px; */
+  margin-left: 35%;
+  margin-right: 30%;
+  margin-top: 15%; }
+
+.services_main_width {
+  width: 1300px;
+  width: 100%;
+  min-height: 470px; }
+
+.services__main_title {
+  max-width: 40%;
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: 30%;
+  right: 30%;
+  top: 30px; }
+
+.services__title_text {
+  color: #394b50;
+  font-family: "MyriadPro", Bold;
+  text-align: center;
+  font-size: 25px; }
+
+.services__hr {
+  color: #555555;
+  text-align: center;
+  width: 50px; }
+
+.services__comment_text {
+  color: #555555;
+  font-family: "MyriadPro", Bold;
+  text-align: center; }
+
+.services__positions_main {
+  max-width: 80%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 90px;
+  left: 10%; }
+
+.services__positions {
+  max-width: 32%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.services__piditions__image {
+  text-align: center;
+  width: 60px;
+  position: relative;
+  top: 5%;
+  left: 40%; }
+
+.services__piditions__title {
+  text-align: center;
+  color: #394b50;
+  font-family: "MyriadPro", Bold; }
+
+.services__piditions__comment {
+  text-align: center;
+  color: #555555;
+  font-family: "MyriadPro", Bold; }
+
+.aboutus__main_width {
+  width: auto;
+  min-height: 700px;
+  background-color: #f8f8f8; }
+
+.aboutus__main_title {
+  max-width: 40%;
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: 30%;
+  top: 50px; }
+
+.aboutus__title_text {
+  color: #394b50;
+  font-family: "MyriadPro", Bold;
+  text-align: center;
+  font-size: 25px; }
+
+.aboutus__hr {
+  color: #555555;
+  text-align: center;
+  width: 50px; }
+
+.aboutus__comment_text {
+  color: #555555;
+  font-family: "MyriadPro", Bold;
+  text-align: center; }
+
+.aboutus__big_comment_container {
+  max-width: 70%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  left: 15%;
+  top: 100px; }
+
+.aboutus__big_comment_pr1 {
+  width: 45%;
+  height: auto;
+  margin: 5px;
+  color: #555555;
+  font-size: 17px; }
+
+.aboutus__main_container_photo {
+  max-width: 70%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  left: 15%;
+  top: 150px; }
+
+.aboutus__bloks_photos {
+  width: 200px;
+  height: 230px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.aboutus__photos {
+  max-width: 100%;
+  margin: 2px; }
+
+.aboutus__name {
+  text-align: center;
+  color: #394b50; }
+
+.aboutus__job {
+  text-align: center;
+  color: #555555; }
+
+.aboutus__image_cover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none; }
+
+.aboutus__bloks_photos:hover .aboutus__image_cover {
+  display: block; }
+
+.latest_works__main_width {
+  width: auto;
+  min-height: 1000px;
+  /* min-height: 13%; */ }
+
+.latest_works__main_title {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: 30%;
+  top: 30px; }
+
+li a.latest_works__links {
+  color: #394b50; }
+  li a.latest_works__links:hover {
+    color: red;
+    background-color: white; }
+
+.active2 {
+  background-color: white;
+  color: red; }
+
+.latest_works__position {
+  position: relative;
+  width: 80%;
+  height: auto;
+  top: 10%;
+  left: 0%;
+  margin: 0px; }
+
+.latest_works__photo_container {
+  width: 69%;
+  height: auto;
+  position: relative;
+  left: 15%;
+  top: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex; }
+
+.latest_works__bloks_photos {
+  max-width: 280px;
+  max-height: 500px;
+  background-color: blue;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.latest_works__block2 {
+  background-color: white; }
+
+.latest_works__photos {
+  position: relative;
+  width: 100%; }
+
+.latest_works__cover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  display: none; }
+
+.latest_works__bloks_photos:hover .latest_works__cover {
+  display: block; }
+
+.paralax__main_width {
+  width: auto;
+  max-height: 300px; }
+
+.paralax__photo {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: -100px; }
+
+.paralax__main_title {
+  color: white;
+  font-family: "MyriadPro", Bold;
+  max-width: 35%;
+  min-height: 100px;
+  position: relative;
+  left: 33%;
+  z-index: 1;
+  top: 80px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-content: center; */ }
+
+.paralax__title {
+  color: white;
+  align-content: center;
+  text-align: center;
+  font-size: 30px; }
+
+.paralax__buttom {
+  color: white;
+  align-content: center;
+  text-align: center;
+  /* text-shadow: 0 0 0px black; */
+  box-shadow: 0 0 10px 3px #f8f8f8;
+  max-width: 35%;
+  font-size: 20px;
+  position: relative;
+  left: 33%;
+  top: 20px; }
+
+.recent__main_width {
+  width: auto;
+  min-height: 800px;
+  /* padding: 15% 0; */ }
+
+.recent__flex_1 {
+  width: 60%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  left: 20%; }
+
+.recent__flex_2 {
+  width: 100%;
+  height: auto;
+  /* align-content: flex-end; */
+  margin: 6px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.recent__flex_3 {
+  width: auto;
+  height: auto; }
+
+.recent__middle {
+  width: auto;
+  color: #394b50; }
+
+.recent__flex_4 {
+  width: 380px;
+  height: 266px; }
+
+.recent__photo {
+  width: 100%; }
+
+.recent__title {
+  display: flex; }
+
+.recent_title_top {
+  color: #c0301c;
+  font-family: "MyriadPro", Bold;
+  font-size: 16px;
+  position: relative;
+  top: 20%; }
+
+.recent_title_down {
+  font-family: "MyriadPro", Bold;
+  color: #555555;
+  position: relative;
+  top: 20%; }
+
+.recent__comment_text {
+  font-family: "MyriadPro", Bold;
+  color: #555555;
+  font-size: 17px; }
+
+.recent__buttom {
+  font-family: "MyriadPro", Bold;
+  color: #c0301c;
+  position: relative;
+  font-size: 20px;
+  top: 10%; }
+
+.types__main_width {
+  width: auto;
+  height: 380px;
+  background-color: #f8f8f8; }
+
+.types__photo {
+  max-width: 80%;
+  position: relative;
+  top: 50px;
+  left: 150px; }
+
+.types__comment {
+  color: #555555;
+  font-family: "MyriadPro", Bold;
+  max-width: 50%;
+  position: relative;
+  top: 30%;
+  left: 25%;
+  text-align: center; }
+
+.types__author {
+  color: #555555;
+  font-family: "MyriadPro", Bold;
+  position: relative;
+  top: 40%;
+  left: 43%;
+  width: 12%; }
+
+.types__photo2 {
+  position: relative;
+  top: 190px;
+  left: 46%; }
+
+.getin__main_width {
+  width: auto;
+  height: 537px; }
+
+.aboutus__main_title2 {
+  position: relative;
+  top: 5%; }
+
+.getin__adress {
+  width: 15%;
+  height: 220px;
+  position: relative;
+  top: 130px;
+  left: 17%; }
+
+.getin__main_input {
+  position: relative;
+  max-width: 50%;
+  left: 35%;
+  top: -20%; }
+
+.getin__input_dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative; }
+
+.getin_dates {
+  width: 46%;
+  height: 30px;
+  box-shadow: 0 0 px 0px red;
+  margin: 6px; }
+
+.getin__comment {
+  width: 97%;
+  margin: 6px;
+  height: 100px; }
+
+.getin__buttom_main {
+  display: flex;
+  position: relative; }
+
+.getin__buttom {
+  position: relative;
+  color: #555555;
+  font-family: "MyriadPro", Bold;
+  box-shadow: 0 0 3px #555555;
+  top: 10px;
+  text-align: center;
+  width: 30%;
+  height: 30px;
+  left: 1%; }
+
+.getin__little_text {
+  position: relative;
+  color: #555555;
+  font-family: "MyriadPro", Bold;
+  font-size: 13px;
+  left: 18%;
+  top: 10px;
+  max-width: 50%; }
+
+.footer__main_width {
+  width: auto;
+  height: 250px;
+  background: #c0301c; }
+
+.footer__main_title2 {
+  position: relative;
+  top: 30%; }
+
+.footer__hr {
+  color: white;
+  text-align: center;
+  width: 50px; }
+
+.footer__comment_text {
+  color: white;
+  font-family: "MyriadPro", Bold;
+  text-align: center; }
+
+/*# sourceMappingURL=styles_startup.css.map */
